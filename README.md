@@ -1,7 +1,7 @@
-Py Simple HTTP Server
+Servathon
 =====================
 
-Simple HTTP Server with socket programming with Python 3.
+A simple HTTP server using socket programming in Python 3.
 
 ## Requirements
  - Python 3
@@ -20,7 +20,7 @@ app = App()
 
 @app.route('/')         # action for route /
 def route_index():      # function name should have prefix 'route_'
-    # simple return 'Hello, World!' in browser
+    # write 'Hello, World!' to browser
     return app.response.send('Hello, World!')
 
 
